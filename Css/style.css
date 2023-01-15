@@ -1357,3 +1357,159 @@ transform: scale();
     align-items: start;
     }
 }
+@media only screen and (min-width:651px) and (max-width:768px) { 
+    html , body { 
+        overflow-x: hidden;
+    }
+    * { 
+        padding: 0;
+        margin: 0;
+    }
+    ::-webkit-scrollbar { 
+        display: none;
+    }
+    .main { 
+        height: 20vh;
+    }
+    .main header .row .col .nav  , .main header .row .col .call { 
+        display: none;
+    }
+    .myBurger { 
+        display: initial;
+    }
+    .blog .row .col img { 
+        width: 250px;
+        height: 250px;
+        left: 0;
+    }
+    .blog .row { 
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .myShop { 
+        padding: 0 20px;
+    }
+    .myShop .row { 
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .more-products .row { 
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .more-products .row .col { 
+        width: 100%;
+    }
+    .more-products .row .col .img-product img { 
+        object-fit: contain;
+    }
+    .work .row { 
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .delivery { 
+        padding: 20px;
+    }
+    .delivery .row { 
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+    .delivery .row .col .flex { 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .delivery .row .col .flex .content h3 , .delivery .row .col .flex .content h4 { 
+        text-align: center;
+    }
+    .client .row { 
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .social-medias .row .col:nth-child(1)::after , .social-medias .row .col:nth-child(2)::after { 
+        display: none;
+    }
+    .social-medias .flex { 
+        padding: 25px;
+    }
+    footer .footer-top .row { 
+        padding: 2px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px) { 
+    html , body { 
+        overflow-x: hidden;
+    }
+    * { 
+        padding: 0;
+        margin: 0;
+    }
+    ::-webkit-scrollbar { 
+        display: none;
+    }
+    .main header .row .col .nav , .main header .row .col .call { 
+        display: none;
+    }
+    .myBurger { 
+        display: initial;
+    }
+    .blog .row .col img { 
+        width: 350px;
+        height: 350px;
+    }
+    .myShop .row { 
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .more-products .row { 
+        flex-wrap: wrap;
+        row-gap: 35px;
+        column-gap: 20px;
+        justify-content: center;
+    }
+    .work .row { 
+        padding: 2px;
+        flex-wrap: wrap;
+    }
+    .delivery .row { 
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .social-medias .row .col:nth-child(1)::after  , .social-medias .row .col:nth-child(2)::after { 
+        top: 15px;
+    } 
+    footer .footer-top .row .col h3 { 
+        text-align: center;
+    }
+
+}
+@media only screen and (min-width:1025px) and (max-width:1240px) { 
+    html , body { 
+        overflow-x: hidden;
+    }
+    * { 
+        padding: 0;
+        margin: 0;
+    }
+    .blog .row .col img { 
+        width: 350px;
+        height: 350px;
+        left: 0;
+    }
+    .more-products .row .col .img-product img { 
+        object-fit: contain;
+    }
+    .social-medias .row .col:nth-child(1)::after , .social-medias .row .col:nth-child(2)::after { 
+        top: 15px;
+    }
+
+}
+@media only screen and (min-width:1241px) { 
+    html , body { 
+        overflow-x: hidden;
+    }
+    * { 
+        padding: 0;
+        margin: 0;
+    }
+    
+}
